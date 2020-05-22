@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DCA_Tim2/src/dca.S&apos; to &apos;ADC.S&apos;" description="Rename resource &apos;dca.S&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dca.S" name="ADC.S" stamp="1556050014560" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ADC_Tim2/src/myDataOps02.S&apos; to &apos;setSysClk.S&apos;" description="Rename resource &apos;myDataOps02.S&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/myDataOps02.S" name="setSysClk.S" stamp="1556050611641" updateReferences="true"/>
+</session>

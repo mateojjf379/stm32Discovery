@@ -1,0 +1,18 @@
+19:41:40 **** Incremental Build of configuration Debug for project MoT_project ****
+make all 
+Building target: MoT_project.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"/Users/mateojarafabian/Desktop/enee440/MoT_project/src" -T"/Users/mateojarafabian/Desktop/enee440/MoT_project/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MoT_project.elf" @"objects.list"   -lm
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:57: multiple definition of `install_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:55: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:58: multiple definition of `update_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:56: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:59: multiple definition of `pause_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:57: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:60: multiple definition of `resume_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:58: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:61: multiple definition of `remove_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:59: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:62: multiple definition of `badrequest_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:60: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:64: multiple definition of `ON_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:62: first defined here
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/deviceRedLED04.o:/Users/mateojarafabian/Desktop/enee440/MoT_messaging_demo/Debug/../src/deviceRedLED04.c:65: multiple definition of `OFF_msg'; src/VoltageMoT.o:/Users/mateojarafabian/Desktop/enee440/MoT_project/Debug/../src/VoltageMoT.c:63: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [MoT_project.elf] Error 1
+
+19:41:40 Build Finished (took 292ms)
+

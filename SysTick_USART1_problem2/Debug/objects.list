@@ -1,0 +1,7 @@
+"src/05Blinky_LD3.o"
+"src/myDataOps02.o"
+"src/mySysTick_Handler.o"
+"src/mySystemInit.o"
+"src/mymain_F429v02.o"
+"src/startup_stm32f429xx_02.o"
+"src/stm32f429xx_USART1_interrupt_recomment.o"

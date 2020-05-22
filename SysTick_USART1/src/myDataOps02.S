@@ -1,0 +1,179 @@
+@;myDataOps02.S wmh 2017-09-09 : demo pseudo-op  'ldr r0,=Dword' 
+@;myDataOps01.S wmh 2017-09-04 : ARM data instruction examples
+
+@; --- characterize target syntax, processor
+	.syntax unified				@; ARM Unified Assembler Language (UAL). 
+								@; Code written using UAL can be assembled 
+								@; for ARM, Thumb-2, or pre-Thumb-2 Thumb
+	.thumb						@; but here we'll use thumb instructions only
+
+@; --- constant definitions (locally symbol macros -- these do not use storage)
+	.equ silly,0x12345678
+	
+@; --- _initialized_ RAM data					
+	.data						@; keyword '.data' starts the _initialized_ RAM data section
+	.align 2					@; .align's argument is power of 2, so this pads memory to start on 4-byte (e.g. word) boundary
+	.global Dword				@; this makes variable 'Dint' visible everywhere in the program (C and asm sources) 
+Dword: 	.word  0xAAAA5555   	@; Dword is 32-bits
+Dhalf:	.hword 0xABCD       	@; Dhalf is 16-bits and local to this source file
+Dbyte: 	.byte  0x55   		    @; Dbyte is 8-bits and local to this source file  
+  
+ @; --- _uninitialized_ RAM data	
+	.bss						@; keyword 'bss' starts the _uninitialized_ RAM data section				 
+	.align	2					@; pad to word-boundary
+global_bss_begin:				@; marker for start of  global .bss variables
+	.comm	Garray,256			@; 256 bytes of static storage starting at global label 'Garray'
+	.comm	Gword,4				@; 4 bytes of static storage starting at global label 'Gword'
+	.comm	Ghalf,2				@; 2 bytes of static storage starting at global label 'Ghalf'
+	.comm	Gbyte,1				@; 1 byte of static storage starting at global label 'Gbyte'
+	
+	.align	2					@; pad to word-boundary
+local_bss_begin:				@; marker for start of  local .bss variables
+	.lcomm	Larray,256			@; 256 bytes of static storage starting at local label 'Larray'
+	.lcomm	Lword,4				@; 4 bytes of static storage starting at local label 'L
+	.lcomm	Lhalf,2				@; 2 bytes of static storage starting at local label 'L
+	.lcomm	Lbyte,1				@; 1 byte of static storage starting at local label 'L
+	
+	
+@; --- program memory and constant data
+	.text						@;keyword '.text' starts the code section (in ROM)
+
+	.global IT_ascii2num
+	.thumb_func
+IT_ascii2num:
+	cmp r0, #47					@; checks if the char is in between 0 and 9
+	it lt
+	movlt r0, #-1
+	cmp r0, #57
+	it hi
+	movhi r0, #-1
+	cmp r0, #-1
+	it ne
+	subne r0, r0, #48			@; subtracts the char minus 48, since number 0 is coded as 48 in ascii.
+return_it:
+	bx lr
+
+.global TBB_ascii2num
+	.thumb_func
+TBB_ascii2num:
+	adr.w r1, case_addresses_table	@; gets the address of the case table
+	movs r2, #4					@; stores 4 into r2
+	subs r0, r0, #48			@; subtracts 48 from the char in r0
+	cmp r0, #-1					@; if less or equal than -1, then r0 will be 10
+	it lt
+	movlt r0, #10
+	cmp r0, #9					@; if greater than 9, then r0 will be 10
+	it hi
+	movhi r0, #10
+	muls r0, r0, r2				@; multiplies r0 with 4. Since I am using words in the table
+	tbb [r1, r0]				@; table start in r1, index in r0 (0,4,8,12,16,etc)
+case0:
+	mov r0, #0
+	b finish
+case1:
+	mov r0, #1
+	b finish
+case2:
+	mov r0, #2
+	b finish
+case3:
+	mov r0, #3
+	b finish
+case4:
+	mov r0, #4
+	b finish
+case5:
+	mov r0, #5
+	b finish
+case6:
+	mov r0, #6
+	b finish
+case7:
+	mov r0, #7
+	b finish
+case8:
+	mov r0, #8
+	b finish
+case9:
+	mov r0, #9
+	b finish
+default:
+	mov r0, #-1
+	b finish
+
+case_addresses_table:
+	.word 0
+	.word ((case1-case0)/2)		@; calculates offsets as entries in the table
+	.word ((case2-case0)/2)
+	.word ((case3-case0)/2)
+	.word ((case4-case0)/2)
+	.word ((case5-case0)/2)
+	.word ((case6-case0)/2)
+	.word ((case7-case0)/2)
+	.word ((case8-case0)/2)
+	.word ((case9-case0)/2)
+	.word ((default-case0)/2)
+finish:
+	bx lr
+	
+@; Homework Problem #1 -- as many ways of  loading constants to register as you can devise
+
+	.global loadCONSTANT_00		@; method 00 demo/gift
+	.thumb_func 				@; make this function thumb-compatible
+loadCONSTANT_00:	@; is a 'leaf function' with no local variables, so no stack frame required
+	movw r0,#:lower16:Dword		@; get _address_ of Dword in r0
+	movt r0,#:upper16:Dword		@; ..
+	bx lr						@; return to caller with constant value in r0
+
+
+@; Homework Problem #2 -- as many ways of  loading variables to register as you can devise
+
+	.global loadVARIABLE_00 	@; method 00 demo/gift
+	.thumb_func
+loadVARIABLE_00:
+	push {lr}					@; we are not a leaf function so we have to save the link register
+	bl loadCONSTANT_00			@; returns address of variable 'Dword' in r0
+	ldr r0,[r0,#0]				@; read contents of memory at address 'Dword'
+	pop {pc}					@; return to caller with contents of 'Dword' in r0
+
+@; Homework Problem #3 -- as many ways of storing variables from register as you can devise
+
+	.global storeVARIABLE_00 	@; method 00 demo/gift
+	.thumb_func
+storeVARIABLE_00:
+	push {lr}					@; we are not a leaf function so we have to save the link register
+	bl loadCONSTANT_00			@; returns address of variable 'Dword' in r0
+	bl loadVARIABLE_00			@; returns contents of variable 'Dword' in r0
+	add r1,r0,#1				@; add 1 to contents of 'Dword'
+	bl loadCONSTANT_00			@; returns address of variable 'Dword' in r0
+	str r1,[r0,#0]				@; write incremented value at address 'Dword'
+	pop {pc}					@; return to caller - we're a void function so r0 is don't-care
+
+	.global loadDword 			@;
+	.thumb_func
+loadDword: @;demo for Discussion
+	@; With a few hours of messing around I have only been able to come up with one thing I know works:
+	ldr r0, =Dword
+	bx lr
+
+@; --- some constant data we're putting in ROM which you might access with some of your instructions
+
+	.global	ROMdata				@; global label of test target data area
+	.align 2					@; pad memory if necessary to align on word boundary for word storage 
+ROMdata:						@; start of test data area	
+	.byte 0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x09,0x0A,0x0B,0x0C,0x0D,0x0E,0x0F	@;16 bytes with contents = offset from start
+	.byte 0x10,0x11,0x12,0x13,0x14,0x15,0x16,0x17,0x18,0x19,0x1A,0x1B,0x1C,0x1D,0x1E,0x1F	@;""
+	.byte 0x20,0x21,0x22,0x23,0x24,0x25,0x26,0x27,0x28,0x29,0x2A,0x2B,0x2C,0x2D,0x2E,0x2F	@;""
+	.byte 0x30,0x31,0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39,0x3A,0x3B,0x3C,0x3D,0x3E,0x3F	@;""
+	.byte 0x40,0x41,0x42,0x43,0x44,0x45,0x46,0x47,0x48,0x49,0x4A,0x4B,0x4C,0x4D,0x4E,0x4F	@;""
+	.byte 0x50,0x51,0x52,0x53,0x54,0x55,0x56,0x57,0x58,0x59,0x5A,0x5B,0x5C,0x5D,0x5E,0x5F	@;""
+	.byte 0x60,0x61,0x62,0x63,0x64,0x65,0x66,0x67,0x68,0x69,0x6A,0x6B,0x6C,0x6D,0x6E,0x6F	@;""
+	.byte 0x70,0x71,0x72,0x73,0x74,0x75,0x76,0x77,0x78,0x79,0x7A,0x7B,0x7C,0x7D,0x7E,0x7F	@;""
+	.byte 0x80,0x81,0x82,0x83,0x84,0x85,0x86,0x87,0x88,0x89,0x8A,0x8B,0x8C,0x8D,0x8E,0x8F	@;""
+	.byte 0x90,0x91,0x92,0x93,0x94,0x95,0x96,0x97,0x98,0x99,0x9A,0x9B,0x9C,0x9D,0x9E,0x9F	@;""
+	.byte 0xA0,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF	@;""
+	.byte 0xB0,0xB1,0xB2,0xB3,0xB4,0xB5,0xB6,0xB7,0xB8,0xB9,0xBA,0xBB,0xBC,0xBD,0xBE,0xBF	@;""
+	.byte 0xC0,0xC1,0xC2,0xC3,0xC4,0xC5,0xC6,0xC7,0xC8,0xC9,0xCA,0xCB,0xCC,0xCD,0xCE,0xCF	@;""
+	.byte 0xD0,0xD1,0xD2,0xD3,0xD4,0xD5,0xD6,0xD7,0xD8,0xD9,0xDA,0xDB,0xDC,0xDD,0xDE,0xDF	@;""
+	.byte 0xE0,0xE1,0xE2,0xE3,0xE4,0xE5,0xE6,0xE7,0xE8,0xE9,0xEA,0xEB,0xEC,0xED,0xEE,0xEF	@;""
+	.byte 0xF0,0xF1,0xF2,0xF3,0xF4,0xF5,0xF6,0xF7,0xF8,0xF9,0xFA,0xFB,0xFC,0xFD,0xFE,0xFF	@;"" , 256 bytes total

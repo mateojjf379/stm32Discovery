@@ -1,0 +1,12 @@
+19:51:18 **** Incremental Build of configuration Debug for project SysTick_USART1 ****
+make all 
+Building target: SysTick_USART1.elf
+Invoking: MCU G++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -nostartfiles -nodefaultlibs -nostdlib -L"/Users/mateojarafabian/Desktop/enee440/SysTick_USART1/src" -T"/Users/mateojarafabian/Desktop/enee440/SysTick_USART1/src/STM32F429ZITx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -fno-exceptions -fno-rtti -o "SysTick_USART1.elf" @"objects.list"  -lUSART1_AC6gcc_nodebug -lm
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld: src/stm32f767xx_TIM2_CH4_PWM_IRQ_demo01.o: in function `TIM2_IRQHandler':
+/Users/mateojarafabian/Desktop/enee440/SysTick_USART1/Debug/../src/stm32f767xx_TIM2_CH4_PWM_IRQ_demo01.S:272: undefined reference to `ticks500'
+collect2: error: ld returned 1 exit status
+make: *** [SysTick_USART1.elf] Error 1
+
+19:51:19 Build Finished (took 263ms)
+

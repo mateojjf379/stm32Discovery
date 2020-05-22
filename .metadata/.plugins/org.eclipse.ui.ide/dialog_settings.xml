@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/mateojarafabian/Desktop/MoT_project"/>
+			<item value="/Users/mateojarafabian/Downloads/07_MoT_messaging_demo_02"/>
+			<item value="/Users/mateojarafabian/Desktop/DCA_Tim2"/>
+			<item value="/Users/mateojarafabian/Desktop/SysTick_set_clock"/>
+			<item value="/Users/mateojarafabian/Desktop/SysTick_USART1_problem4"/>
+			<item value="/Users/mateojarafabian/Desktop/SysTick_USART1_problem3"/>
+			<item value="/Users/mateojarafabian/Desktop/SysTick_USART1_problem2"/>
+			<item value="/Users/mateojarafabian/Desktop/SysTick_USART1_problem1"/>
+			<item value="/Users/mateojarafabian/Downloads/SysTick_USART1_ws/SysTick_USART1"/>
+			<item value="/Users/mateojarafabian/Downloads/scratch_building/blah_ws"/>
+			<item value="/Users/mateojarafabian/Downloads/0818_03Blinky_STM32F429/03Blinky_STM32F429"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

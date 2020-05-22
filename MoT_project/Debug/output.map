@@ -1,0 +1,1018 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+                              src/myESP8266_runAtCmd01.o (strstr)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o) (__call_exitprocs)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o) (atexit)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o) (memcmp)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o) (strchr)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strlen.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o) (strlen)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o) (strnlen)
+/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+                              /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+runAtCmd_Tokenlength
+                    0x4               src/myESP8266_runAtCmd01.o
+__lock___arc4random_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+Cmd_buf             0x10c             src/Cmd_Handler11.o
+ESP8266_RxBuffer    0x4               src/myESP8266_runAtCmd01.o
+runAtCmd_cmdptr     0x4               src/myESP8266_runAtCmd01.o
+serchar             0x4               src/MoT_demo_main01.o
+__lock___env_recursive_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+msglink             0x4               src/MoT_demo_main01.o
+runAtcmd_State      0x4               src/myESP8266_runAtCmd01.o
+runAtCmd_Lengthexpected
+                    0x4               src/myESP8266_runAtCmd01.o
+Token               0x4               src/myESP8266_runAtCmd01.o
+msgcount            0x4               src/MoT_demo_main01.o
+buffer              0x101             src/MoT_demo_main01.o
+pdev_data           0x4               src/MoT_demo_main01.o
+runAtCmd_Timeout    0x4               src/myESP8266_runAtCmd01.o
+runAtCmd_Tokenbegin
+                    0x4               src/myESP8266_runAtCmd01.o
+RxBuffer            0x5dc             src/myESP8266_runAtCmd01.o
+runAtCmd_Tokenend   0x4               src/myESP8266_runAtCmd01.o
+prev                0x4               src/MoT_demo_main01.o
+HSE_StartCount      0x4               src/mySetSysClk03.o
+next                0x4               src/MoT_demo_main01.o
+runAtCmd_Timeoutlimit
+                    0x4               src/myESP8266_runAtCmd01.o
+__lock___at_quick_exit_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+msgptr              0x4               src/MoT_demo_main01.o
+PLL_StartCount      0x4               src/mySetSysClk03.o
+runAtCmd_Timeoutdelay
+                    0x4               src/myESP8266_runAtCmd01.o
+__lock___dd_hash_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+xeq                 0x4               src/MoT_demo_main01.o
+ESP8266_RxBuffer_idx
+                    0x4               src/myESP8266_runAtCmd01.o
+__lock___sfp_recursive_mutex
+                    0x1               /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000000000       0x74 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 src/ADC.o
+ .bss           0x0000000000000000        0x0 src/ADC.o
+ .data          0x0000000000000000        0x0 src/Blinky_LD3_LD4.o
+ .bss           0x0000000000000000        0x0 src/Blinky_LD3_LD4.o
+ .bss           0x0000000000000000        0x0 src/Cmd_Handler11.o
+ .group         0x0000000000000000        0xc src/MoT_demo_main01.o
+ .group         0x0000000000000000        0xc src/MoT_demo_main01.o
+ .text          0x0000000000000000        0x0 src/MoT_demo_main01.o
+ .data          0x0000000000000000        0x0 src/MoT_demo_main01.o
+ .bss           0x0000000000000000        0x0 src/Msg_Handler03.o
+ .group         0x0000000000000000        0xc src/VoltageMoT.o
+ .group         0x0000000000000000        0xc src/VoltageMoT.o
+ .group         0x0000000000000000        0xc src/VoltageMoT.o
+ .text          0x0000000000000000        0x0 src/VoltageMoT.o
+ .text.Voltage  0x0000000000000000       0x38 src/VoltageMoT.o
+ .debug_macro   0x0000000000000000      0xaa8 src/VoltageMoT.o
+ .debug_macro   0x0000000000000000      0x34e src/VoltageMoT.o
+ .group         0x0000000000000000        0xc src/deviceESP8266_01.o
+ .group         0x0000000000000000        0xc src/deviceESP8266_01.o
+ .group         0x0000000000000000        0xc src/deviceESP8266_01.o
+ .text          0x0000000000000000        0x0 src/deviceESP8266_01.o
+ .debug_macro   0x0000000000000000      0xaa8 src/deviceESP8266_01.o
+ .debug_macro   0x0000000000000000      0x34e src/deviceESP8266_01.o
+ .debug_macro   0x0000000000000000      0x174 src/deviceESP8266_01.o
+ .data          0x0000000000000000        0x0 src/deviceGreenLED03.o
+ .group         0x0000000000000000        0xc src/deviceRedLED04.o
+ .group         0x0000000000000000        0xc src/deviceRedLED04.o
+ .group         0x0000000000000000        0xc src/deviceRedLED04.o
+ .text          0x0000000000000000        0x0 src/deviceRedLED04.o
+ .data          0x0000000000000000       0xb5 src/deviceRedLED04.o
+ .debug_macro   0x0000000000000000      0xaa8 src/deviceRedLED04.o
+ .debug_macro   0x0000000000000000      0x34e src/deviceRedLED04.o
+ .debug_macro   0x0000000000000000      0x174 src/deviceRedLED04.o
+ .data          0x0000000000000000        0x0 src/myESP8266_USART3_interrupt01.o
+ .bss           0x0000000000000000        0x0 src/myESP8266_USART3_interrupt01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .group         0x0000000000000000        0xc src/myESP8266_runAtCmd01.o
+ .text          0x0000000000000000        0x0 src/myESP8266_runAtCmd01.o
+ .data          0x0000000000000000        0x0 src/myESP8266_runAtCmd01.o
+ .bss           0x0000000000000000        0x0 src/myESP8266_runAtCmd01.o
+ .rodata        0x0000000000000000        0x8 src/myESP8266_runAtCmd01.o
+ .text.runAtcmd_status
+                0x0000000000000000       0xb8 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000000000      0xaa8 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000000000      0x174 src/myESP8266_runAtCmd01.o
+ .data          0x0000000000000000        0x0 src/mySetSysClk03.o
+ .bss           0x0000000000000000        0x0 src/mySetSysClk03.o
+ .data          0x0000000000000000        0x0 src/mySysTick_Handler_168MHz.o
+ .bss           0x0000000000000000        0x0 src/mySysTick_Handler_168MHz.o
+ .text          0x0000000000000000       0x5c src/mySystemInit.o
+ .data          0x0000000000000000        0x0 src/mySystemInit.o
+ .bss           0x0000000000000000        0x0 src/mySystemInit.o
+ .debug_line    0x0000000000000000       0x67 src/mySystemInit.o
+ .debug_info    0x0000000000000000       0x26 src/mySystemInit.o
+ .debug_abbrev  0x0000000000000000       0x14 src/mySystemInit.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mySystemInit.o
+ .debug_str     0x0000000000000000       0x65 src/mySystemInit.o
+ .ARM.attributes
+                0x0000000000000000       0x21 src/mySystemInit.o
+ .text          0x0000000000000000       0x14 src/startup_stm32f429xx_02.o
+ .data          0x0000000000000000        0x0 src/startup_stm32f429xx_02.o
+ .bss           0x0000000000000000        0x0 src/startup_stm32f429xx_02.o
+ .data          0x0000000000000000        0x0 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .bss           0x0000000000000000        0x0 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .data          0x0000000000000000        0x0 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .bss           0x0000000000000000        0x0 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .data          0x0000000000000000        0x0 src/tim2.o
+ .bss           0x0000000000000000        0x0 src/tim2.o
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x20 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x0000000000000000       0x48 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .text.memset   0x0000000000000000       0xa0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .text.two_way_long_needle
+                0x0000000000000000      0x2d8 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .text.strstr   0x0000000000000000      0x180 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .debug_frame   0x0000000000000000       0x80 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strstr.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000000       0xb0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000000000       0x64 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-memcmp.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .text.strchr   0x0000000000000000       0xc8 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .debug_frame   0x0000000000000000       0x30 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strchr.o)
+ .text          0x0000000000000000       0xdc /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .text.strnlen  0x0000000000000000       0x44 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .debug_frame   0x0000000000000000       0x30 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-strnlen.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x32 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000030000 xrw
+ROM              0x0000000008000000 0x0000000000200000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD src/ADC.o
+LOAD src/Blinky_LD3_LD4.o
+LOAD src/Cmd_Handler11.o
+LOAD src/MoT_demo_main01.o
+LOAD src/Msg_Handler03.o
+LOAD src/VoltageMoT.o
+LOAD src/deviceESP8266_01.o
+LOAD src/deviceGreenLED03.o
+LOAD src/deviceRedLED04.o
+LOAD src/myESP8266_USART3_interrupt01.o
+LOAD src/myESP8266_runAtCmd01.o
+LOAD src/mySetSysClk03.o
+LOAD src/mySysTick_Handler_168MHz.o
+LOAD src/mySystemInit.o
+LOAD src/startup_stm32f429xx_02.o
+LOAD src/stm32f429xx_168MHz_USART1_9600N81.o
+LOAD src/stm32f429xx_168MHz_USART3_115200N81.o
+LOAD src/tim2.o
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000020030000                _estack = 0x20030000
+                0x0000000000000000                _Min_Heap_Size = 0x0
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x1ac
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x1ac src/startup_stm32f429xx_02.o
+                0x0000000008000000                g_pfnVectors
+                0x00000000080001ac                . = ALIGN (0x4)
+
+.text           0x00000000080001ac     0x129c
+                0x00000000080001ac                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000080001ac       0x40 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x00000000080001ec      0x148 src/ADC.o
+                0x00000000080001ec                NVIC_set_ADC3_priority
+                0x00000000080001fa                NVIC_ADC3_IRQ_enable
+                0x000000000800020a                NVIC_ADC3_IRQ_disable
+                0x0000000008000218                PC3_enable
+                0x0000000008000240                PA5_enable
+                0x0000000008000268                DAC_enable
+                0x000000000800028e                myADC3_TIM2_PC3
+                0x00000000080002cc                ADC_check
+                0x00000000080002e8                ADC_IRQHandler
+ .text          0x0000000008000334       0xb6 src/Blinky_LD3_LD4.o
+                0x0000000008000334                initPG13PG14
+                0x00000000080003a6                togglePG13
+                0x00000000080003b8                togglePG14
+                0x00000000080003ca                setRedLED
+                0x00000000080003da                resetRedLED
+ .text          0x00000000080003ea      0x1a0 src/Cmd_Handler11.o
+                0x00000000080003ea                Devicetable
+                0x00000000080003fa                suspend_Ctask
+                0x0000000008000400                link_Ctask
+                0x000000000800041a                unlink_Ctask
+                0x0000000008000440                relink_Ctask
+                0x0000000008000444                do_tasks
+                0x0000000008000458                do_tasks_return
+                0x0000000008000466                initCmd_Handler
+                0x0000000008000486                Cmd_Handler
+ .text          0x000000000800058a      0x10e src/Msg_Handler03.o
+                0x000000000800058a                post_Cdevicemsg
+                0x00000000080005c6                MSG_post_fn
+                0x00000000080005e8                initMsg_Handler
+                0x0000000008000610                Msg_Handler
+                0x000000000800061e                Msg_sender
+                0x0000000008000664                Msg_Handler_phony_post
+ .text          0x0000000008000698      0x300 src/deviceGreenLED03.o
+                0x00000000080006f8                GreenLED
+                0x000000000800070a                GreenLED_init
+                0x00000000080007b8                GreenLED_slow
+                0x000000000800080c                GreenLED_fast
+                0x0000000008000860                GreenLED_stop
+                0x00000000080008c4                GreenLED_on
+                0x00000000080008fa                GreenLED_on_msg_posted
+                0x0000000008000926                GreenLED_off
+                0x000000000800095c                GreenLED_off_msg_posted
+ .text          0x0000000008000998       0xf8 src/myESP8266_USART3_interrupt01.o
+                0x0000000008000998                USART3_IRQHandler
+                0x0000000008000a00                USART3_IRQinit
+                0x0000000008000a38                USART3_TXint_enab
+                0x0000000008000a44                USART3_TXint_inhib
+                0x0000000008000a50                USART3_RXint_enab
+                0x0000000008000a5c                USART3_RXint_inhib
+ .text          0x0000000008000a90      0x15e src/mySetSysClk03.o
+                0x0000000008000a90                SetSysClk
+ .text          0x0000000008000bee       0x76 src/mySysTick_Handler_168MHz.o
+                0x0000000008000bee                initSysTick
+                0x0000000008000c24                SysTick_Handler
+ .text          0x0000000008000c64      0x128 src/stm32f429xx_168MHz_USART1_9600N81.o
+                0x0000000008000cc8                initUSART1
+                0x0000000008000d2a                nbUSART1_getchar
+                0x0000000008000d3e                nbUSART1_putchar
+                0x0000000008000d58                bUSART1_getchar
+                0x0000000008000d68                bUSART1_putchar
+                0x0000000008000d78                USART1_writeDR
+ .text          0x0000000008000d8c      0x130 src/stm32f429xx_168MHz_USART3_115200N81.o
+                0x0000000008000d8c                configure_GPIOC_for_USART3
+                0x0000000008000df8                initUSART3
+                0x0000000008000e5a                nbUSART3_getchar
+                0x0000000008000e6e                nbUSART3_putchar
+                0x0000000008000e88                bUSART3_getchar
+                0x0000000008000e98                bUSART3_putchar
+                0x0000000008000ea8                USART3_writeDR
+ .text          0x0000000008000ebc       0xc0 src/tim2.o
+                0x0000000008000ebc                TIM2_init
+                0x0000000008000f22                TIM2_disable
+                0x0000000008000f3e                TIM2_check
+                0x0000000008000f5c                TIM2_poll
+ *(.text*)
+ .text.main     0x0000000008000f7c       0xa8 src/MoT_demo_main01.o
+                0x0000000008000f7c                main
+ .text.Voltage_reading
+                0x0000000008001024       0x44 src/VoltageMoT.o
+                0x0000000008001024                Voltage_reading
+ .text.Voltage_install
+                0x0000000008001068       0x40 src/VoltageMoT.o
+                0x0000000008001068                Voltage_install
+ .text.monitor_USART3_TX
+                0x00000000080010a8       0x38 src/deviceESP8266_01.o
+                0x00000000080010a8                monitor_USART3_TX
+ .text.hello_USART3
+                0x00000000080010e0       0x2c src/deviceESP8266_01.o
+                0x00000000080010e0                hello_USART3
+ .text.RedLED_on
+                0x000000000800110c       0x54 src/deviceRedLED04.o
+                0x000000000800110c                RedLED_on
+ .text.RedLED_off
+                0x0000000008001160       0x54 src/deviceRedLED04.o
+                0x0000000008001160                RedLED_off
+ .text.RedLED_install
+                0x00000000080011b4       0x44 src/deviceRedLED04.o
+                0x00000000080011b4                RedLED_install
+ .text.RedLED_update
+                0x00000000080011f8       0x24 src/deviceRedLED04.o
+                0x00000000080011f8                RedLED_update
+ .text.RedLED_pauseresume
+                0x000000000800121c       0x48 src/deviceRedLED04.o
+                0x000000000800121c                RedLED_pauseresume
+ .text.RedLED_remove
+                0x0000000008001264       0x28 src/deviceRedLED04.o
+                0x0000000008001264                RedLED_remove
+ .text.RedLED   0x000000000800128c       0x74 src/deviceRedLED04.o
+                0x000000000800128c                RedLED
+ .text.Reset_Handler
+                0x0000000008001300       0x48 src/startup_stm32f429xx_02.o
+                0x0000000008001300                Reset_Handler
+ .text.Default_Handler
+                0x0000000008001348        0x2 src/startup_stm32f429xx_02.o
+                0x0000000008001348                DMA1_Stream3_IRQHandler
+                0x0000000008001348                HASH_RNG_IRQHandler
+                0x0000000008001348                EXTI2_IRQHandler
+                0x0000000008001348                TIM8_CC_IRQHandler
+                0x0000000008001348                DebugMon_Handler
+                0x0000000008001348                UART8_IRQHandler
+                0x0000000008001348                SPI4_IRQHandler
+                0x0000000008001348                TIM1_CC_IRQHandler
+                0x0000000008001348                DMA2_Stream5_IRQHandler
+                0x0000000008001348                HardFault_Handler
+                0x0000000008001348                DMA1_Stream5_IRQHandler
+                0x0000000008001348                PVD_IRQHandler
+                0x0000000008001348                SDIO_IRQHandler
+                0x0000000008001348                TAMP_STAMP_IRQHandler
+                0x0000000008001348                PendSV_Handler
+                0x0000000008001348                NMI_Handler
+                0x0000000008001348                CAN2_RX1_IRQHandler
+                0x0000000008001348                EXTI3_IRQHandler
+                0x0000000008001348                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008001348                TIM1_UP_TIM10_IRQHandler
+                0x0000000008001348                TIM8_UP_TIM13_IRQHandler
+                0x0000000008001348                I2C3_ER_IRQHandler
+                0x0000000008001348                EXTI0_IRQHandler
+                0x0000000008001348                I2C2_EV_IRQHandler
+                0x0000000008001348                DMA1_Stream2_IRQHandler
+                0x0000000008001348                CAN1_RX0_IRQHandler
+                0x0000000008001348                FPU_IRQHandler
+                0x0000000008001348                OTG_HS_WKUP_IRQHandler
+                0x0000000008001348                UsageFault_Handler
+                0x0000000008001348                LTDC_ER_IRQHandler
+                0x0000000008001348                CAN2_SCE_IRQHandler
+                0x0000000008001348                DMA2_Stream2_IRQHandler
+                0x0000000008001348                SPI1_IRQHandler
+                0x0000000008001348                TIM6_DAC_IRQHandler
+                0x0000000008001348                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008001348                DCMI_IRQHandler
+                0x0000000008001348                CAN2_RX0_IRQHandler
+                0x0000000008001348                DMA2_Stream3_IRQHandler
+                0x0000000008001348                USART6_IRQHandler
+                0x0000000008001348                CAN1_RX1_IRQHandler
+                0x0000000008001348                UART5_IRQHandler
+                0x0000000008001348                DMA2_Stream0_IRQHandler
+                0x0000000008001348                TIM4_IRQHandler
+                0x0000000008001348                I2C1_EV_IRQHandler
+                0x0000000008001348                DMA1_Stream6_IRQHandler
+                0x0000000008001348                DMA1_Stream1_IRQHandler
+                0x0000000008001348                UART4_IRQHandler
+                0x0000000008001348                TIM3_IRQHandler
+                0x0000000008001348                RCC_IRQHandler
+                0x0000000008001348                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008001348                Default_Handler
+                0x0000000008001348                EXTI15_10_IRQHandler
+                0x0000000008001348                DMA1_Stream7_IRQHandler
+                0x0000000008001348                SPI5_IRQHandler
+                0x0000000008001348                TIM7_IRQHandler
+                0x0000000008001348                CAN2_TX_IRQHandler
+                0x0000000008001348                TIM5_IRQHandler
+                0x0000000008001348                DMA2_Stream7_IRQHandler
+                0x0000000008001348                I2C3_EV_IRQHandler
+                0x0000000008001348                EXTI9_5_IRQHandler
+                0x0000000008001348                RTC_WKUP_IRQHandler
+                0x0000000008001348                LTDC_IRQHandler
+                0x0000000008001348                ETH_WKUP_IRQHandler
+                0x0000000008001348                SPI2_IRQHandler
+                0x0000000008001348                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008001348                MemManage_Handler
+                0x0000000008001348                DMA1_Stream0_IRQHandler
+                0x0000000008001348                CAN1_TX_IRQHandler
+                0x0000000008001348                SVC_Handler
+                0x0000000008001348                EXTI4_IRQHandler
+                0x0000000008001348                ETH_IRQHandler
+                0x0000000008001348                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008001348                WWDG_IRQHandler
+                0x0000000008001348                SPI6_IRQHandler
+                0x0000000008001348                TIM2_IRQHandler
+                0x0000000008001348                OTG_FS_WKUP_IRQHandler
+                0x0000000008001348                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008001348                OTG_HS_IRQHandler
+                0x0000000008001348                DMA2D_IRQHandler
+                0x0000000008001348                EXTI1_IRQHandler
+                0x0000000008001348                UART7_IRQHandler
+                0x0000000008001348                USART2_IRQHandler
+                0x0000000008001348                I2C2_ER_IRQHandler
+                0x0000000008001348                DMA2_Stream1_IRQHandler
+                0x0000000008001348                CAN1_SCE_IRQHandler
+                0x0000000008001348                FLASH_IRQHandler
+                0x0000000008001348                DMA2_Stream4_IRQHandler
+                0x0000000008001348                BusFault_Handler
+                0x0000000008001348                USART1_IRQHandler
+                0x0000000008001348                OTG_FS_IRQHandler
+                0x0000000008001348                SPI3_IRQHandler
+                0x0000000008001348                DMA1_Stream4_IRQHandler
+                0x0000000008001348                I2C1_ER_IRQHandler
+                0x0000000008001348                FMC_IRQHandler
+                0x0000000008001348                DMA2_Stream6_IRQHandler
+                0x0000000008001348                SAI1_IRQHandler
+                0x0000000008001348                RTC_Alarm_IRQHandler
+ *fill*         0x000000000800134a        0x2 
+ .text.startup.register_fini
+                0x000000000800134c       0x14 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0000000008001360        0xc /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+                0x0000000008001360                atexit
+ .text.__libc_fini_array
+                0x000000000800136c       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+                0x000000000800136c                __libc_fini_array
+ .text.__retarget_lock_acquire_recursive
+                0x00000000080013a0        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x00000000080013a0                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00000000080013a4        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x00000000080013a4                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x00000000080013a8       0x88 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+                0x00000000080013a8                __register_exitproc
+ *(.glue_7)
+ .glue_7        0x0000000008001430        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008001430        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008001430        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x0000000008001430        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008001430                _init
+ .init          0x0000000008001434        0x8 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000000000800143c        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800143c                _fini
+ .fini          0x0000000008001440        0x8 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008001448                . = ALIGN (0x4)
+                0x0000000008001448                _etext = .
+
+.vfp11_veneer   0x0000000008001448        0x0
+ .vfp11_veneer  0x0000000008001448        0x0 linker stubs
+
+.v4_bx          0x0000000008001448        0x0
+ .v4_bx         0x0000000008001448        0x0 linker stubs
+
+.iplt           0x0000000008001448        0x0
+ .iplt          0x0000000008001448        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rodata         0x0000000008001448        0x4
+                0x0000000008001448                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x0000000008001448        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+                0x0000000008001448                _global_impure_ptr
+                0x000000000800144c                . = ALIGN (0x4)
+
+.rel.dyn        0x000000000800144c        0x0
+ .rel.iplt      0x000000000800144c        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab      0x000000000800144c        0x0
+                0x000000000800144c                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000800144c                . = ALIGN (0x4)
+
+.ARM            0x000000000800144c        0x0
+                0x000000000800144c                . = ALIGN (0x4)
+                0x000000000800144c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x000000000800144c                __exidx_end = .
+                0x000000000800144c                . = ALIGN (0x4)
+
+.preinit_array  0x000000000800144c        0x0
+                0x000000000800144c                . = ALIGN (0x4)
+                0x000000000800144c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x000000000800144c                PROVIDE (__preinit_array_end = .)
+                0x000000000800144c                . = ALIGN (0x4)
+
+.init_array     0x000000000800144c        0x8
+                0x000000000800144c                . = ALIGN (0x4)
+                0x000000000800144c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x000000000800144c        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x0000000008001450        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008001454                PROVIDE (__init_array_end = .)
+                0x0000000008001454                . = ALIGN (0x4)
+
+.fini_array     0x0000000008001454        0x4
+                0x0000000008001454                . = ALIGN (0x4)
+                0x0000000008001454                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x0000000008001454        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008001458                PROVIDE (__fini_array_end = .)
+                0x0000000008001458                . = ALIGN (0x4)
+                0x0000000008001458                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000      0x59c load address 0x0000000008001458
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000       0x24 src/Cmd_Handler11.o
+                0x0000000020000000                Tasklist_root
+                0x0000000020000010                Tasklist_last
+                0x000000002000001c                MSGS_begin
+                0x000000002000001c                MSG_list
+                0x0000000020000020                MSGS_end
+ .data          0x0000000020000024       0x20 src/Msg_Handler03.o
+                0x0000000020000024                Msgs_head
+                0x0000000020000024                Msgs_list
+                0x0000000020000028                Msgs_tail
+                0x000000002000002c                phonyDEV_data
+ .data          0x0000000020000044       0xcc src/VoltageMoT.o
+                0x0000000020000044                install_msg
+                0x0000000020000060                update_msg
+                0x0000000020000080                pause_msg
+                0x0000000020000090                resume_msg
+                0x00000000200000a4                remove_msg
+                0x00000000200000b8                badrequest_msg
+                0x00000000200000e8                ON_msg
+                0x00000000200000f4                OFF_msg
+                0x0000000020000104                voltage
+ .data          0x0000000020000110       0x5a src/deviceESP8266_01.o
+                0x0000000020000110                device8266_init_msg
+                0x000000002000012c                USART3_TXdone_msg
+                0x000000002000014c                USART3_TXhello_msg
+ *(.data*)
+ *fill*         0x000000002000016a        0x6 
+ .data.impure_data
+                0x0000000020000170      0x428 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x0000000020000598        0x4 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+                0x0000000020000598                __atexit_recursive_mutex
+                0x000000002000059c                . = ALIGN (0x4)
+                0x000000002000059c                _edata = .
+
+.igot.plt       0x000000002000059c        0x0 load address 0x00000000080019f4
+ .igot.plt      0x000000002000059c        0x0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000002000059c                . = ALIGN (0x4)
+
+.bss            0x00000000200005a0      0x918 load address 0x00000000080019f4
+                0x00000000200005a0                _sbss = .
+                0x00000000200005a0                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x00000000200005a0       0x1c /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000200005bc        0xc src/MoT_demo_main01.o
+                0x00000000200005bc                SysTick_msecs
+                0x00000000200005c0                SysTick_absmsecs
+                0x00000000200005c4                SysTick_secs
+ .bss           0x00000000200005c8       0x1d src/VoltageMoT.o
+ *fill*         0x00000000200005e5        0x3 
+ .bss           0x00000000200005e8       0x1c src/deviceESP8266_01.o
+ .bss           0x0000000020000604       0x24 src/deviceGreenLED03.o
+                0x0000000020000604                GreenLED_XEQ
+                0x0000000020000604                GreenLED_data
+                0x0000000020000608                GreenLED_NEXT
+                0x000000002000060c                GreenLED_PREV
+                0x0000000020000610                GreenLED_MSGPTR
+                0x0000000020000614                GreenLED_MSGCOUNT
+                0x0000000020000618                GreenLED_MSGLINK
+                0x000000002000061c                GreenLED_reload
+                0x0000000020000620                GreenLED_count
+                0x0000000020000624                GreenLED_flags
+ .bss           0x0000000020000628       0x1d src/deviceRedLED04.o
+ *(.bss*)
+ *(COMMON)
+ *fill*         0x0000000020000645        0xb 
+ COMMON         0x0000000020000650      0x10c src/Cmd_Handler11.o
+                0x0000000020000650                Cmd_buf
+ COMMON         0x000000002000075c      0x124 src/MoT_demo_main01.o
+                0x000000002000075c                serchar
+                0x0000000020000760                msglink
+                0x0000000020000764                msgcount
+                0x0000000020000768                buffer
+                0x000000002000086c                pdev_data
+                0x0000000020000870                prev
+                0x0000000020000874                next
+                0x0000000020000878                msgptr
+                0x000000002000087c                xeq
+ COMMON         0x0000000020000880      0x60c src/myESP8266_runAtCmd01.o
+                0x0000000020000880                runAtCmd_Tokenlength
+                0x0000000020000884                ESP8266_RxBuffer
+                0x0000000020000888                runAtCmd_cmdptr
+                0x000000002000088c                runAtcmd_State
+                0x0000000020000890                runAtCmd_Lengthexpected
+                0x0000000020000894                Token
+                0x0000000020000898                runAtCmd_Timeout
+                0x000000002000089c                runAtCmd_Tokenbegin
+                0x00000000200008a0                RxBuffer
+                0x0000000020000e7c                runAtCmd_Tokenend
+                0x0000000020000e80                runAtCmd_Timeoutlimit
+                0x0000000020000e84                runAtCmd_Timeoutdelay
+                0x0000000020000e88                ESP8266_RxBuffer_idx
+ COMMON         0x0000000020000e8c        0x8 src/mySetSysClk03.o
+                0x0000000020000e8c                HSE_StartCount
+                0x0000000020000e90                PLL_StartCount
+ COMMON         0x0000000020000e94       0x21 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+                0x0000000020000e94                __lock___atexit_recursive_mutex
+                0x0000000020000e98                __lock___arc4random_mutex
+                0x0000000020000e9c                __lock___env_recursive_mutex
+                0x0000000020000ea0                __lock___sinit_recursive_mutex
+                0x0000000020000ea4                __lock___malloc_recursive_mutex
+                0x0000000020000ea8                __lock___at_quick_exit_mutex
+                0x0000000020000eac                __lock___dd_hash_mutex
+                0x0000000020000eb0                __lock___tz_mutex
+                0x0000000020000eb4                __lock___sfp_recursive_mutex
+                0x0000000020000eb8                . = ALIGN (0x4)
+ *fill*         0x0000000020000eb5        0x3 
+                0x0000000020000eb8                _ebss = .
+                0x0000000020000eb8                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020000eb8      0x400 load address 0x00000000080019f4
+                0x0000000020000eb8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020000eb8                . = (. + _Min_Heap_Size)
+                0x00000000200012b8                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000eb8      0x400 
+                0x00000000200012b8                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1e /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x20 src/ADC.o
+ .ARM.attributes
+                0x0000000000000072       0x20 src/Blinky_LD3_LD4.o
+ .ARM.attributes
+                0x0000000000000092       0x20 src/Cmd_Handler11.o
+ .ARM.attributes
+                0x00000000000000b2       0x34 src/MoT_demo_main01.o
+ .ARM.attributes
+                0x00000000000000e6       0x20 src/Msg_Handler03.o
+ .ARM.attributes
+                0x0000000000000106       0x34 src/VoltageMoT.o
+ .ARM.attributes
+                0x000000000000013a       0x34 src/deviceESP8266_01.o
+ .ARM.attributes
+                0x000000000000016e       0x20 src/deviceGreenLED03.o
+ .ARM.attributes
+                0x000000000000018e       0x34 src/deviceRedLED04.o
+ .ARM.attributes
+                0x00000000000001c2       0x20 src/myESP8266_USART3_interrupt01.o
+ .ARM.attributes
+                0x00000000000001e2       0x34 src/myESP8266_runAtCmd01.o
+ .ARM.attributes
+                0x0000000000000216       0x20 src/mySetSysClk03.o
+ .ARM.attributes
+                0x0000000000000236       0x20 src/mySysTick_Handler_168MHz.o
+ .ARM.attributes
+                0x0000000000000256       0x21 src/startup_stm32f429xx_02.o
+ .ARM.attributes
+                0x0000000000000277       0x20 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .ARM.attributes
+                0x0000000000000297       0x20 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .ARM.attributes
+                0x00000000000002b7       0x20 src/tim2.o
+ .ARM.attributes
+                0x00000000000002d7       0x32 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000309       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000000000000033d       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000371       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000000003a5       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000000003d9       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000000000000040d       0x1e /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+OUTPUT(MoT_project.elf elf32-littlearm)
+
+.debug_line     0x0000000000000000     0x1097
+ .debug_line    0x0000000000000000       0xca src/ADC.o
+ .debug_line    0x00000000000000ca       0x62 src/Blinky_LD3_LD4.o
+ .debug_line    0x000000000000012c       0xbb src/Cmd_Handler11.o
+ .debug_line    0x00000000000001e7       0xca src/MoT_demo_main01.o
+ .debug_line    0x00000000000002b1       0x9b src/Msg_Handler03.o
+ .debug_line    0x000000000000034c      0x14e src/VoltageMoT.o
+ .debug_line    0x000000000000049a      0x145 src/deviceESP8266_01.o
+ .debug_line    0x00000000000005df       0xdb src/deviceGreenLED03.o
+ .debug_line    0x00000000000006ba      0x206 src/deviceRedLED04.o
+ .debug_line    0x00000000000008c0       0xc3 src/myESP8266_USART3_interrupt01.o
+ .debug_line    0x0000000000000983      0x374 src/myESP8266_runAtCmd01.o
+ .debug_line    0x0000000000000cf7       0x84 src/mySetSysClk03.o
+ .debug_line    0x0000000000000d7b       0x72 src/mySysTick_Handler_168MHz.o
+ .debug_line    0x0000000000000ded       0x7c src/startup_stm32f429xx_02.o
+ .debug_line    0x0000000000000e69       0xd2 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .debug_line    0x0000000000000f3b       0xd8 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .debug_line    0x0000000000001013       0x84 src/tim2.o
+
+.debug_info     0x0000000000000000     0x1606
+ .debug_info    0x0000000000000000       0x26 src/ADC.o
+ .debug_info    0x0000000000000026       0x26 src/Blinky_LD3_LD4.o
+ .debug_info    0x000000000000004c       0x26 src/Cmd_Handler11.o
+ .debug_info    0x0000000000000072      0x1b2 src/MoT_demo_main01.o
+ .debug_info    0x0000000000000224       0x26 src/Msg_Handler03.o
+ .debug_info    0x000000000000024a      0x307 src/VoltageMoT.o
+ .debug_info    0x0000000000000551      0x1b8 src/deviceESP8266_01.o
+ .debug_info    0x0000000000000709       0x26 src/deviceGreenLED03.o
+ .debug_info    0x000000000000072f      0x359 src/deviceRedLED04.o
+ .debug_info    0x0000000000000a88       0x26 src/myESP8266_USART3_interrupt01.o
+ .debug_info    0x0000000000000aae      0xa78 src/myESP8266_runAtCmd01.o
+ .debug_info    0x0000000000001526       0x26 src/mySetSysClk03.o
+ .debug_info    0x000000000000154c       0x26 src/mySysTick_Handler_168MHz.o
+ .debug_info    0x0000000000001572       0x22 src/startup_stm32f429xx_02.o
+ .debug_info    0x0000000000001594       0x26 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .debug_info    0x00000000000015ba       0x26 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .debug_info    0x00000000000015e0       0x26 src/tim2.o
+
+.debug_abbrev   0x0000000000000000      0x718
+ .debug_abbrev  0x0000000000000000       0x14 src/ADC.o
+ .debug_abbrev  0x0000000000000014       0x14 src/Blinky_LD3_LD4.o
+ .debug_abbrev  0x0000000000000028       0x14 src/Cmd_Handler11.o
+ .debug_abbrev  0x000000000000003c       0xc2 src/MoT_demo_main01.o
+ .debug_abbrev  0x00000000000000fe       0x14 src/Msg_Handler03.o
+ .debug_abbrev  0x0000000000000112      0x152 src/VoltageMoT.o
+ .debug_abbrev  0x0000000000000264       0xe9 src/deviceESP8266_01.o
+ .debug_abbrev  0x000000000000034d       0x14 src/deviceGreenLED03.o
+ .debug_abbrev  0x0000000000000361      0x13d src/deviceRedLED04.o
+ .debug_abbrev  0x000000000000049e       0x14 src/myESP8266_USART3_interrupt01.o
+ .debug_abbrev  0x00000000000004b2      0x1f0 src/myESP8266_runAtCmd01.o
+ .debug_abbrev  0x00000000000006a2       0x14 src/mySetSysClk03.o
+ .debug_abbrev  0x00000000000006b6       0x14 src/mySysTick_Handler_168MHz.o
+ .debug_abbrev  0x00000000000006ca       0x12 src/startup_stm32f429xx_02.o
+ .debug_abbrev  0x00000000000006dc       0x14 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .debug_abbrev  0x00000000000006f0       0x14 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .debug_abbrev  0x0000000000000704       0x14 src/tim2.o
+
+.debug_aranges  0x0000000000000000      0x270
+ .debug_aranges
+                0x0000000000000000       0x20 src/ADC.o
+ .debug_aranges
+                0x0000000000000020       0x20 src/Blinky_LD3_LD4.o
+ .debug_aranges
+                0x0000000000000040       0x20 src/Cmd_Handler11.o
+ .debug_aranges
+                0x0000000000000060       0x20 src/MoT_demo_main01.o
+ .debug_aranges
+                0x0000000000000080       0x20 src/Msg_Handler03.o
+ .debug_aranges
+                0x00000000000000a0       0x30 src/VoltageMoT.o
+ .debug_aranges
+                0x00000000000000d0       0x28 src/deviceESP8266_01.o
+ .debug_aranges
+                0x00000000000000f8       0x20 src/deviceGreenLED03.o
+ .debug_aranges
+                0x0000000000000118       0x50 src/deviceRedLED04.o
+ .debug_aranges
+                0x0000000000000168       0x20 src/myESP8266_USART3_interrupt01.o
+ .debug_aranges
+                0x0000000000000188       0x20 src/myESP8266_runAtCmd01.o
+ .debug_aranges
+                0x00000000000001a8       0x20 src/mySetSysClk03.o
+ .debug_aranges
+                0x00000000000001c8       0x20 src/mySysTick_Handler_168MHz.o
+ .debug_aranges
+                0x00000000000001e8       0x28 src/startup_stm32f429xx_02.o
+ .debug_aranges
+                0x0000000000000210       0x20 src/stm32f429xx_168MHz_USART1_9600N81.o
+ .debug_aranges
+                0x0000000000000230       0x20 src/stm32f429xx_168MHz_USART3_115200N81.o
+ .debug_aranges
+                0x0000000000000250       0x20 src/tim2.o
+
+.debug_str      0x0000000000000000     0x7915
+ .debug_str     0x0000000000000000       0x55 src/ADC.o
+ .debug_str     0x0000000000000055       0x58 src/Blinky_LD3_LD4.o
+                                         0x67 (size before relaxing)
+ .debug_str     0x00000000000000ad       0x17 src/Cmd_Handler11.o
+                                         0x66 (size before relaxing)
+ .debug_str     0x00000000000000c4     0x3752 src/MoT_demo_main01.o
+                                       0x3916 (size before relaxing)
+ .debug_str     0x0000000000003816       0x17 src/Msg_Handler03.o
+                                         0x66 (size before relaxing)
+ .debug_str     0x000000000000382d      0x3b9 src/VoltageMoT.o
+                                       0x3cc6 (size before relaxing)
+ .debug_str     0x0000000000003be6      0x130 src/deviceESP8266_01.o
+                                       0x3d1d (size before relaxing)
+ .debug_str     0x0000000000003d16       0x1a src/deviceGreenLED03.o
+                                         0x69 (size before relaxing)
+ .debug_str     0x0000000000003d30       0x72 src/deviceRedLED04.o
+                                       0x3ce0 (size before relaxing)
+ .debug_str     0x0000000000003da2       0x26 src/myESP8266_USART3_interrupt01.o
+                                         0x75 (size before relaxing)
+ .debug_str     0x0000000000003dc8     0x3a8e src/myESP8266_runAtCmd01.o
+                                       0x6e2a (size before relaxing)
+ .debug_str     0x0000000000007856       0x17 src/mySetSysClk03.o
+                                         0x66 (size before relaxing)
+ .debug_str     0x000000000000786d       0x22 src/mySysTick_Handler_168MHz.o
+                                         0x71 (size before relaxing)
+ .debug_str     0x000000000000788f       0x20 src/startup_stm32f429xx_02.o
+                                         0x6f (size before relaxing)
+ .debug_str     0x00000000000078af       0x2b src/stm32f429xx_168MHz_USART1_9600N81.o
+                                         0x7a (size before relaxing)
+ .debug_str     0x00000000000078da       0x2d src/stm32f429xx_168MHz_USART3_115200N81.o
+                                         0x7c (size before relaxing)
+ .debug_str     0x0000000000007907        0xe src/tim2.o
+                                         0x5d (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0xb8
+ .debug_ranges  0x0000000000000000       0x10 src/MoT_demo_main01.o
+ .debug_ranges  0x0000000000000010       0x20 src/VoltageMoT.o
+ .debug_ranges  0x0000000000000030       0x18 src/deviceESP8266_01.o
+ .debug_ranges  0x0000000000000048       0x40 src/deviceRedLED04.o
+ .debug_ranges  0x0000000000000088       0x10 src/myESP8266_runAtCmd01.o
+ .debug_ranges  0x0000000000000098       0x20 src/startup_stm32f429xx_02.o
+
+.debug_macro    0x0000000000000000     0x1ca6
+ .debug_macro   0x0000000000000000       0x20 src/MoT_demo_main01.o
+ .debug_macro   0x0000000000000020      0xaa8 src/MoT_demo_main01.o
+ .debug_macro   0x0000000000000ac8      0x34e src/MoT_demo_main01.o
+ .debug_macro   0x0000000000000e16       0x29 src/VoltageMoT.o
+ .debug_macro   0x0000000000000e3f      0x174 src/VoltageMoT.o
+ .debug_macro   0x0000000000000fb3       0x55 src/deviceESP8266_01.o
+ .debug_macro   0x0000000000001008       0x29 src/deviceRedLED04.o
+ .debug_macro   0x0000000000001031      0x155 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001186       0x22 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x00000000000011a8       0x87 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x000000000000122f       0x44 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001273       0xfd src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001370       0x5e src/myESP8266_runAtCmd01.o
+ .debug_macro   0x00000000000013ce      0x1df src/myESP8266_runAtCmd01.o
+ .debug_macro   0x00000000000015ad       0x5e src/myESP8266_runAtCmd01.o
+ .debug_macro   0x000000000000160b       0x18 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001623       0x35 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001658       0x34 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x000000000000168c       0x58 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x00000000000016e4       0x1f src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001703       0x43 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001746       0x20 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001766      0x18e src/myESP8266_runAtCmd01.o
+ .debug_macro   0x00000000000018f4      0x339 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001c2d       0x10 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001c3d       0x35 src/myESP8266_runAtCmd01.o
+ .debug_macro   0x0000000000001c72       0x34 src/myESP8266_runAtCmd01.o
+
+.comment        0x0000000000000000       0x75
+ .comment       0x0000000000000000       0x75 src/MoT_demo_main01.o
+                                         0x76 (size before relaxing)
+ .comment       0x0000000000000075       0x76 src/VoltageMoT.o
+ .comment       0x0000000000000075       0x76 src/deviceESP8266_01.o
+ .comment       0x0000000000000075       0x76 src/deviceRedLED04.o
+ .comment       0x0000000000000075       0x76 src/myESP8266_runAtCmd01.o
+
+.debug_frame    0x0000000000000000      0x3b4
+ .debug_frame   0x0000000000000000       0x30 src/MoT_demo_main01.o
+ .debug_frame   0x0000000000000030       0x7c src/VoltageMoT.o
+ .debug_frame   0x00000000000000ac       0x48 src/deviceESP8266_01.o
+ .debug_frame   0x00000000000000f4      0x104 src/deviceRedLED04.o
+ .debug_frame   0x00000000000001f8       0x2c src/myESP8266_runAtCmd01.o
+ .debug_frame   0x0000000000000224       0x5c /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000280       0x20 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000002a0       0x34 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-fini.o)
+ .debug_frame   0x00000000000002d4       0xb0 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000384       0x30 /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__atexit.o)

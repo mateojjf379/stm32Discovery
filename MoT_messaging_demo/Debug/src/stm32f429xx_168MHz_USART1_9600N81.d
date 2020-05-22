@@ -1,0 +1,2 @@
+src/stm32f429xx_168MHz_USART1_9600N81.o: \
+ ../src/stm32f429xx_168MHz_USART1_9600N81.S

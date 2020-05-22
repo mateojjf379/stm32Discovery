@@ -1,0 +1,141 @@
+@;myDataOps02.S wmh 2017-09-09 : demo pseudo-op  'ldr r0,=Dword' 
+@;myDataOps01.S wmh 2017-09-04 : ARM data instruction examples
+
+@; --- characterize target syntax, processor
+	.syntax unified				@; ARM Unified Assembler Language (UAL). 
+								@; Code written using UAL can be assembled 
+								@; for ARM, Thumb-2, or pre-Thumb-2 Thumb
+	.thumb						@; but here we'll use thumb instructions only
+
+@; --- constant definitions (locally symbol macros -- these do not use storage)
+	.equ silly,0x12345678
+	.equ BUFF_SIZE, 20
+	.equ read,0x00
+	.equ write,0x01
+	.equ start_write,0x02
+	.equ data,0x03
+@; --- _initialized_ RAM data					
+	.data						@; keyword '.data' starts the _initialized_ RAM data section
+	.align 2					@; .align's argument is power of 2, so this pads memory to start on 4-byte (e.g. word) boundary
+	.global Dword				@; this makes variable 'Dint' visible everywhere in the program (C and asm sources) 
+Dword: 	.word  0xAAAA5555   	@; Dword is 32-bits
+Dhalf:	.hword 0xABCD       	@; Dhalf is 16-bits and local to this source file
+Dbyte: 	.byte  0x55   		    @; Dbyte is 8-bits and local to this source file  
+
+ @; --- _uninitialized_ RAM data	
+	.bss						@; keyword 'bss' starts the _uninitialized_ RAM data section				 
+	.align	2					@; pad to word-boundary
+global_bss_begin:				@; marker for start of  global .bss variables
+	.comm	Garray,256			@; 256 bytes of static storage starting at global label 'Garray'
+	.comm	Gword,4				@; 4 bytes of static storage starting at global label 'Gword'
+	.comm	Ghalf,2				@; 2 bytes of static storage starting at global label 'Ghalf'
+	.comm	Gbyte,1				@; 1 byte of static storage starting at global label 'Gbyte'
+	
+	.align	2					@; pad to word-boundary
+local_bss_begin:				@; marker for start of  local .bss variables
+	.lcomm	Larray,256			@; 256 bytes of static storage starting at local label 'Larray'
+	.lcomm	Lword,4				@; 4 bytes of static storage starting at local label 'L
+	.lcomm	Lhalf,2				@; 2 bytes of static storage starting at local label 'L
+	.lcomm	Lbyte,1				@; 1 byte of static storage starting at local label 'L
+	
+	
+@; --- program memory and constant data
+	.text						@;keyword '.text' starts the code section (in ROM)
+
+	.global buffer_handler
+	.thumb_func
+buffer_handler:
+	push {r7,lr}
+	ldr r1, =buffer
+	mov r2, #(BUFF_SIZE-1)
+	ldrb r3, [r1,#read]
+	ldrb r4, [r1,#write]
+
+	add r5, r1, #3
+	add r5, r5, r3
+	strb r0, [r5]				@;stores char into array at read location
+	cmp r3, r2					@;adds one to read pointer. goes back to zero if its on max position
+	ite	eq
+	moveq r3, #0
+	addne r3, r3, #1
+	strb r3, [r1, #read]
+
+	cmp r4, r3
+	it eq
+	addeq r4, #1
+	cmp r4, r2
+	it gt
+	movgt r4, #0
+	strb r4, [r1, #write]
+	pop {r7,pc}
+
+	.global write_handler
+	.thumb_func
+write_handler:
+	push {r7,lr}
+	@;checks if the start_write byte is set
+	ldr r1, =buffer
+	ldrb r3, [r1, #start_write]
+	cmp r3, #1
+	it eq
+	beq write_data
+	pop {r7,pc}
+
+write_data:
+	@;checks if read pointer and write pointer are in the same position
+	ldrb r4, [r1, #write]
+	ldrb r3, [r1, #read]
+	cmp r3, r4
+	ittt eq
+	moveq r2, #0
+	strbeq r2, [r1, #start_write]
+	beq end_write
+	@;puts the char using non blocking
+	mov r5, #0
+	add r5, r1, #3
+	add r5, r5, r4
+	ldrb r0, [r5]
+	bl nbUSART1_putchar
+	@;checks if putchar is successful
+	adds r0, #1
+	cbz r0, end_write
+	@;adds 1 to the write pointer, and if write pointer reacher read pointer, then set start_write to 0
+	mov r2, #(BUFF_SIZE-1)
+	ldrb r4, [r1,#write]
+	cmp r4, r2
+	ite eq
+	moveq r4, #0
+	addne r4, r4, #1
+	strb r4, [r1, #write]
+	ldrb r3, [r1, #read]
+	cmp r3, r4
+	itt eq
+	moveq r2, #0
+	strbeq r2, [r1,#start_write]
+end_write:
+	pop {r7,pc}
+
+
+
+
+@; --- some constant data we're putting in ROM which you might access with some of your instructions
+
+	.global	ROMdata				@; global label of test target data area
+	.align 2					@; pad memory if necessary to align on word boundary for word storage 
+ROMdata:						@; start of test data area	
+	.byte 0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x09,0x0A,0x0B,0x0C,0x0D,0x0E,0x0F	@;16 bytes with contents = offset from start
+	.byte 0x10,0x11,0x12,0x13,0x14,0x15,0x16,0x17,0x18,0x19,0x1A,0x1B,0x1C,0x1D,0x1E,0x1F	@;""
+	.byte 0x20,0x21,0x22,0x23,0x24,0x25,0x26,0x27,0x28,0x29,0x2A,0x2B,0x2C,0x2D,0x2E,0x2F	@;""
+	.byte 0x30,0x31,0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39,0x3A,0x3B,0x3C,0x3D,0x3E,0x3F	@;""
+	.byte 0x40,0x41,0x42,0x43,0x44,0x45,0x46,0x47,0x48,0x49,0x4A,0x4B,0x4C,0x4D,0x4E,0x4F	@;""
+	.byte 0x50,0x51,0x52,0x53,0x54,0x55,0x56,0x57,0x58,0x59,0x5A,0x5B,0x5C,0x5D,0x5E,0x5F	@;""
+	.byte 0x60,0x61,0x62,0x63,0x64,0x65,0x66,0x67,0x68,0x69,0x6A,0x6B,0x6C,0x6D,0x6E,0x6F	@;""
+	.byte 0x70,0x71,0x72,0x73,0x74,0x75,0x76,0x77,0x78,0x79,0x7A,0x7B,0x7C,0x7D,0x7E,0x7F	@;""
+	.byte 0x80,0x81,0x82,0x83,0x84,0x85,0x86,0x87,0x88,0x89,0x8A,0x8B,0x8C,0x8D,0x8E,0x8F	@;""
+	.byte 0x90,0x91,0x92,0x93,0x94,0x95,0x96,0x97,0x98,0x99,0x9A,0x9B,0x9C,0x9D,0x9E,0x9F	@;""
+	.byte 0xA0,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF	@;""
+	.byte 0xB0,0xB1,0xB2,0xB3,0xB4,0xB5,0xB6,0xB7,0xB8,0xB9,0xBA,0xBB,0xBC,0xBD,0xBE,0xBF	@;""
+	.byte 0xC0,0xC1,0xC2,0xC3,0xC4,0xC5,0xC6,0xC7,0xC8,0xC9,0xCA,0xCB,0xCC,0xCD,0xCE,0xCF	@;""
+	.byte 0xD0,0xD1,0xD2,0xD3,0xD4,0xD5,0xD6,0xD7,0xD8,0xD9,0xDA,0xDB,0xDC,0xDD,0xDE,0xDF	@;""
+	.byte 0xE0,0xE1,0xE2,0xE3,0xE4,0xE5,0xE6,0xE7,0xE8,0xE9,0xEA,0xEB,0xEC,0xED,0xEE,0xEF	@;""
+	.byte 0xF0,0xF1,0xF2,0xF3,0xF4,0xF5,0xF6,0xF7,0xF8,0xF9,0xFA,0xFB,0xFC,0xFD,0xFE,0xFF	@;"" , 256 bytes total

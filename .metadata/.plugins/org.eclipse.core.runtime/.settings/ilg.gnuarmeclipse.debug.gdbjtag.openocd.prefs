@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off
+gdb.client.executable=/Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gdb
+gdb.client.other=
+gdb.openocd.doDebugInRam=false
+gdb.openocd.doInitialReset=true
+gdb.openocd.doPreRunReset=true
+gdb.openocd.enableSemihosting=true
+gdb.openocd.init.other=
+gdb.openocd.initialReset.type=init
+gdb.openocd.preRun.other=
+gdb.openocd.preRunReset.type=halt
+gdb.server.doStart=true
+gdb.server.executable=/Users/mateojarafabian/opt/gnu-mcu-eclipse/openocd/0.10.0-11-20190118-1134/bin/openocd
+gdb.server.other=-f board/stm32f4discovery.cfg

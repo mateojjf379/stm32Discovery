@@ -1,0 +1,6 @@
+19:51:17 **** Incremental Build of configuration Debug for project 03Blinky_STM32F429 ****
+make all 
+make: Nothing to be done for `all'.
+
+19:51:17 Build Finished (took 82ms)
+

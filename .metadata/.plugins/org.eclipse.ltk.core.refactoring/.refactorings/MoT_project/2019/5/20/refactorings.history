@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MoT_project/src/RedMoT&apos; to &apos;RedMoT.c&apos;" description="Rename resource &apos;RedMoT&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/RedMoT" name="RedMoT.c" stamp="1557689746378" updateReferences="true"/>
+</session>

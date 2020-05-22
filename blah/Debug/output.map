@@ -1,0 +1,392 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+Ghalf               0x2               src/myDataOps02.o
+Gbyte               0x1               src/myDataOps02.o
+Gword               0x4               src/myDataOps02.o
+Garray              0x100             src/myDataOps02.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 src/Blinky_LD3.o
+ .bss           0x0000000000000000        0x0 src/Blinky_LD3.o
+ .bss           0x0000000000000000      0x107 src/myDataOps02.o
+ COMMON         0x0000000000000000      0x110 src/myDataOps02.o
+ .text          0x0000000000000000       0x5c src/mySystemInit.o
+ .data          0x0000000000000000        0x0 src/mySystemInit.o
+ .bss           0x0000000000000000        0x0 src/mySystemInit.o
+ .debug_line    0x0000000000000000       0x67 src/mySystemInit.o
+ .debug_info    0x0000000000000000       0x26 src/mySystemInit.o
+ .debug_abbrev  0x0000000000000000       0x14 src/mySystemInit.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mySystemInit.o
+ .debug_str     0x0000000000000000       0x57 src/mySystemInit.o
+ .ARM.attributes
+                0x0000000000000000       0x21 src/mySystemInit.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .group         0x0000000000000000        0xc src/mymain_F429v01.o
+ .text          0x0000000000000000        0x0 src/mymain_F429v01.o
+ .data          0x0000000000000000        0x0 src/mymain_F429v01.o
+ .bss           0x0000000000000000        0x0 src/mymain_F429v01.o
+ .text          0x0000000000000000       0x14 src/startup_stm32f429xx_02.o
+ .data          0x0000000000000000        0x0 src/startup_stm32f429xx_02.o
+ .bss           0x0000000000000000        0x0 src/startup_stm32f429xx_02.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000200000 xr
+RAM              0x0000000020000000 0x0000000000030000 xrw
+CCMRAM           0x0000000010000000 0x0000000000010000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD src/Blinky_LD3.o
+LOAD src/myDataOps02.o
+LOAD src/mySystemInit.o
+LOAD src/mymain_F429v01.o
+LOAD src/startup_stm32f429xx_02.o
+LOAD /Users/mateojarafabian/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+                0x0000000020030000                _estack = 0x20030000
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x1ac
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x1ac src/startup_stm32f429xx_02.o
+                0x0000000008000000                g_pfnVectors
+                0x00000000080001ac                . = ALIGN (0x4)
+
+.text           0x00000000080001ac      0x3b4
+                0x00000000080001ac                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000080001ac       0x4c src/Blinky_LD3.o
+                0x00000000080001ac                initPG13
+                0x00000000080001e2                togglePG13
+ .text          0x00000000080001f8      0x274 src/myDataOps02.o
+                0x00000000080001f8                loadCONSTANT_00
+                0x0000000008000202                loadCONSTANT_01
+                0x000000000800020a                loadCONSTANT_02
+                0x0000000008000212                loadCONSTANT_03
+                0x0000000008000214                loadCONSTANT_04
+                0x000000000800021c                loadCONSTANT_05
+                0x0000000008000228                loadCONSTANT_06
+                0x000000000800022a                loadCONSTANT_07
+                0x000000000800022e                loadCONSTANT_08
+                0x000000000800023a                loadVARIABLE_00
+                0x0000000008000244                loadVARIABLE_01
+                0x000000000800024e                loadVARIABLE_02
+                0x000000000800025e                loadVARIABLE_03
+                0x000000000800026c                loadVARIABLE_04
+                0x000000000800027a                loadVARIABLE_05
+                0x0000000008000284                loadVARIABLE_06
+                0x0000000008000294                loadVARIABLE_07
+                0x00000000080002a0                loadVARIABLE_08
+                0x00000000080002b0                storeVARIABLE_00
+                0x00000000080002c6                storeVARIABLE_01
+                0x00000000080002d4                storeVARIABLE_02
+                0x00000000080002e4                storeVARIABLE_03
+                0x00000000080002fc                storeVARIABLE_04
+                0x0000000008000308                storeVARIABLE_05
+                0x000000000800031a                storeVARIABLE_06
+                0x000000000800032c                storeVARIABLE_07
+                0x000000000800033a                storeVARIABLE_08
+                0x000000000800034e                storeVARIABLE_09
+                0x0000000008000360                loadDword
+                0x0000000008000364                ROMdata
+ *(.text*)
+ .text.software_delay
+                0x000000000800046c       0x20 src/mymain_F429v01.o
+                0x000000000800046c                software_delay
+ .text.main     0x000000000800048c       0x88 src/mymain_F429v01.o
+                0x000000000800048c                main
+ .text.Reset_Handler
+                0x0000000008000514       0x48 src/startup_stm32f429xx_02.o
+                0x0000000008000514                Reset_Handler
+ .text.Default_Handler
+                0x000000000800055c        0x2 src/startup_stm32f429xx_02.o
+                0x000000000800055c                DMA1_Stream3_IRQHandler
+                0x000000000800055c                HASH_RNG_IRQHandler
+                0x000000000800055c                EXTI2_IRQHandler
+                0x000000000800055c                TIM8_CC_IRQHandler
+                0x000000000800055c                DebugMon_Handler
+                0x000000000800055c                UART8_IRQHandler
+                0x000000000800055c                SPI4_IRQHandler
+                0x000000000800055c                TIM1_CC_IRQHandler
+                0x000000000800055c                DMA2_Stream5_IRQHandler
+                0x000000000800055c                HardFault_Handler
+                0x000000000800055c                DMA1_Stream5_IRQHandler
+                0x000000000800055c                SysTick_Handler
+                0x000000000800055c                PVD_IRQHandler
+                0x000000000800055c                SDIO_IRQHandler
+                0x000000000800055c                TAMP_STAMP_IRQHandler
+                0x000000000800055c                PendSV_Handler
+                0x000000000800055c                NMI_Handler
+                0x000000000800055c                CAN2_RX1_IRQHandler
+                0x000000000800055c                EXTI3_IRQHandler
+                0x000000000800055c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x000000000800055c                TIM1_UP_TIM10_IRQHandler
+                0x000000000800055c                TIM8_UP_TIM13_IRQHandler
+                0x000000000800055c                I2C3_ER_IRQHandler
+                0x000000000800055c                EXTI0_IRQHandler
+                0x000000000800055c                I2C2_EV_IRQHandler
+                0x000000000800055c                DMA1_Stream2_IRQHandler
+                0x000000000800055c                CAN1_RX0_IRQHandler
+                0x000000000800055c                FPU_IRQHandler
+                0x000000000800055c                OTG_HS_WKUP_IRQHandler
+                0x000000000800055c                UsageFault_Handler
+                0x000000000800055c                LTDC_ER_IRQHandler
+                0x000000000800055c                CAN2_SCE_IRQHandler
+                0x000000000800055c                DMA2_Stream2_IRQHandler
+                0x000000000800055c                SPI1_IRQHandler
+                0x000000000800055c                TIM6_DAC_IRQHandler
+                0x000000000800055c                TIM1_BRK_TIM9_IRQHandler
+                0x000000000800055c                DCMI_IRQHandler
+                0x000000000800055c                CAN2_RX0_IRQHandler
+                0x000000000800055c                DMA2_Stream3_IRQHandler
+                0x000000000800055c                USART6_IRQHandler
+                0x000000000800055c                USART3_IRQHandler
+                0x000000000800055c                CAN1_RX1_IRQHandler
+                0x000000000800055c                UART5_IRQHandler
+                0x000000000800055c                DMA2_Stream0_IRQHandler
+                0x000000000800055c                TIM4_IRQHandler
+                0x000000000800055c                I2C1_EV_IRQHandler
+                0x000000000800055c                DMA1_Stream6_IRQHandler
+                0x000000000800055c                DMA1_Stream1_IRQHandler
+                0x000000000800055c                UART4_IRQHandler
+                0x000000000800055c                TIM3_IRQHandler
+                0x000000000800055c                RCC_IRQHandler
+                0x000000000800055c                TIM8_BRK_TIM12_IRQHandler
+                0x000000000800055c                Default_Handler
+                0x000000000800055c                EXTI15_10_IRQHandler
+                0x000000000800055c                ADC_IRQHandler
+                0x000000000800055c                DMA1_Stream7_IRQHandler
+                0x000000000800055c                SPI5_IRQHandler
+                0x000000000800055c                TIM7_IRQHandler
+                0x000000000800055c                CAN2_TX_IRQHandler
+                0x000000000800055c                TIM5_IRQHandler
+                0x000000000800055c                DMA2_Stream7_IRQHandler
+                0x000000000800055c                I2C3_EV_IRQHandler
+                0x000000000800055c                EXTI9_5_IRQHandler
+                0x000000000800055c                RTC_WKUP_IRQHandler
+                0x000000000800055c                LTDC_IRQHandler
+                0x000000000800055c                ETH_WKUP_IRQHandler
+                0x000000000800055c                SPI2_IRQHandler
+                0x000000000800055c                OTG_HS_EP1_IN_IRQHandler
+                0x000000000800055c                MemManage_Handler
+                0x000000000800055c                DMA1_Stream0_IRQHandler
+                0x000000000800055c                CAN1_TX_IRQHandler
+                0x000000000800055c                SVC_Handler
+                0x000000000800055c                EXTI4_IRQHandler
+                0x000000000800055c                ETH_IRQHandler
+                0x000000000800055c                OTG_HS_EP1_OUT_IRQHandler
+                0x000000000800055c                WWDG_IRQHandler
+                0x000000000800055c                SPI6_IRQHandler
+                0x000000000800055c                TIM2_IRQHandler
+                0x000000000800055c                OTG_FS_WKUP_IRQHandler
+                0x000000000800055c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x000000000800055c                OTG_HS_IRQHandler
+                0x000000000800055c                DMA2D_IRQHandler
+                0x000000000800055c                EXTI1_IRQHandler
+                0x000000000800055c                UART7_IRQHandler
+                0x000000000800055c                USART2_IRQHandler
+                0x000000000800055c                I2C2_ER_IRQHandler
+                0x000000000800055c                DMA2_Stream1_IRQHandler
+                0x000000000800055c                CAN1_SCE_IRQHandler
+                0x000000000800055c                FLASH_IRQHandler
+                0x000000000800055c                DMA2_Stream4_IRQHandler
+                0x000000000800055c                BusFault_Handler
+                0x000000000800055c                USART1_IRQHandler
+                0x000000000800055c                OTG_FS_IRQHandler
+                0x000000000800055c                SPI3_IRQHandler
+                0x000000000800055c                DMA1_Stream4_IRQHandler
+                0x000000000800055c                I2C1_ER_IRQHandler
+                0x000000000800055c                FMC_IRQHandler
+                0x000000000800055c                DMA2_Stream6_IRQHandler
+                0x000000000800055c                SAI1_IRQHandler
+                0x000000000800055c                RTC_Alarm_IRQHandler
+ *(.glue_7)
+ .glue_7        0x000000000800055e        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x000000000800055e        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000000008000560                . = ALIGN (0x4)
+ *fill*         0x000000000800055e        0x2 
+                0x0000000008000560                _etext = .
+
+.vfp11_veneer   0x0000000008000560        0x0
+ .vfp11_veneer  0x0000000008000560        0x0 linker stubs
+
+.v4_bx          0x0000000008000560        0x0
+ .v4_bx         0x0000000008000560        0x0 linker stubs
+
+.iplt           0x0000000008000560        0x0
+ .iplt          0x0000000008000560        0x0 src/Blinky_LD3.o
+
+.rel.dyn        0x0000000008000560        0x0
+ .rel.iplt      0x0000000008000560        0x0 src/Blinky_LD3.o
+
+.rodata         0x0000000008000560        0x0
+                0x0000000008000560                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x0000000008000560                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000000008000560        0x0
+                0x0000000008000560                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008000560                __exidx_end = .
+
+.preinit_array  0x0000000008000560        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000008000560        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000008000560        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x0000000008000560                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x8 load address 0x0000000008000560
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000        0x7 src/myDataOps02.o
+                0x0000000020000000                Dword
+ *(.data*)
+                0x0000000020000008                . = ALIGN (0x4)
+ *fill*         0x0000000020000007        0x1 
+                0x0000000020000008                _edata = .
+                0x0000000008000568                _siccmram = LOADADDR (.ccmram)
+
+.igot.plt       0x0000000020000008        0x0 load address 0x0000000008000568
+ .igot.plt      0x0000000020000008        0x0 src/Blinky_LD3.o
+
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008000568
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _eccmram = .
+                0x0000000010000000                . = ALIGN (0x4)
+
+.bss            0x0000000020000008        0x0
+                0x0000000020000008                _sbss = .
+                0x0000000020000008                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000008                . = ALIGN (0x4)
+                0x0000000020000008                _ebss = .
+                0x0000000020000008                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020000008      0x600
+                0x0000000020000008                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020000208                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000008      0x200 
+                0x0000000020000608                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000208      0x400 
+                0x0000000020000608                . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x20 src/Blinky_LD3.o
+ .ARM.attributes
+                0x0000000000000020       0x20 src/myDataOps02.o
+ .ARM.attributes
+                0x0000000000000040       0x34 src/mymain_F429v01.o
+ .ARM.attributes
+                0x0000000000000074       0x21 src/startup_stm32f429xx_02.o
+OUTPUT(blah.elf elf32-littlearm)
+
+.debug_line     0x0000000000000000      0x410
+ .debug_line    0x0000000000000000       0x5f src/Blinky_LD3.o
+ .debug_line    0x000000000000005f       0xb3 src/myDataOps02.o
+ .debug_line    0x0000000000000112      0x282 src/mymain_F429v01.o
+ .debug_line    0x0000000000000394       0x7c src/startup_stm32f429xx_02.o
+
+.debug_info     0x0000000000000000      0x56f
+ .debug_info    0x0000000000000000       0x26 src/Blinky_LD3.o
+ .debug_info    0x0000000000000026       0x26 src/myDataOps02.o
+ .debug_info    0x000000000000004c      0x501 src/mymain_F429v01.o
+ .debug_info    0x000000000000054d       0x22 src/startup_stm32f429xx_02.o
+
+.debug_abbrev   0x0000000000000000      0x15a
+ .debug_abbrev  0x0000000000000000       0x14 src/Blinky_LD3.o
+ .debug_abbrev  0x0000000000000014       0x14 src/myDataOps02.o
+ .debug_abbrev  0x0000000000000028      0x120 src/mymain_F429v01.o
+ .debug_abbrev  0x0000000000000148       0x12 src/startup_stm32f429xx_02.o
+
+.debug_aranges  0x0000000000000000       0x90
+ .debug_aranges
+                0x0000000000000000       0x20 src/Blinky_LD3.o
+ .debug_aranges
+                0x0000000000000020       0x20 src/myDataOps02.o
+ .debug_aranges
+                0x0000000000000040       0x28 src/mymain_F429v01.o
+ .debug_aranges
+                0x0000000000000068       0x28 src/startup_stm32f429xx_02.o
+
+.debug_str      0x0000000000000000     0x3fbd
+ .debug_str     0x0000000000000000       0x55 src/Blinky_LD3.o
+ .debug_str     0x0000000000000055       0x15 src/myDataOps02.o
+                                         0x56 (size before relaxing)
+ .debug_str     0x000000000000006a     0x3f33 src/mymain_F429v01.o
+                                       0x40ce (size before relaxing)
+ .debug_str     0x0000000000003f9d       0x20 src/startup_stm32f429xx_02.o
+                                         0x61 (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0x38
+ .debug_ranges  0x0000000000000000       0x18 src/mymain_F429v01.o
+ .debug_ranges  0x0000000000000018       0x20 src/startup_stm32f429xx_02.o
+
+.debug_macro    0x0000000000000000      0xf87
+ .debug_macro   0x0000000000000000       0x78 src/mymain_F429v01.o
+ .debug_macro   0x0000000000000078      0xaa8 src/mymain_F429v01.o
+ .debug_macro   0x0000000000000b20       0x22 src/mymain_F429v01.o
+ .debug_macro   0x0000000000000b42       0x8e src/mymain_F429v01.o
+ .debug_macro   0x0000000000000bd0       0x51 src/mymain_F429v01.o
+ .debug_macro   0x0000000000000c21       0xef src/mymain_F429v01.o
+ .debug_macro   0x0000000000000d10       0x6a src/mymain_F429v01.o
+ .debug_macro   0x0000000000000d7a      0x1df src/mymain_F429v01.o
+ .debug_macro   0x0000000000000f59       0x2e src/mymain_F429v01.o
+
+.comment        0x0000000000000000       0x75
+ .comment       0x0000000000000000       0x75 src/mymain_F429v01.o
+                                         0x76 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x58
+ .debug_frame   0x0000000000000000       0x58 src/mymain_F429v01.o
